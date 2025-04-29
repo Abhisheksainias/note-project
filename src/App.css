@@ -1,0 +1,138 @@
+body{
+  background: linear-gradient(90deg, #003f5b, #35497c, #644e98, #9251a9, #bb56ac, #db649f, #f37b7c, #ff9913);
+}
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input {
+  color: transparent;
+  
+}
+
+button {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forminput{
+    /* background-color: #a29bfe; */
+    background: transparent;
+    box-shadow: 0px 0px 5px 3px #030303;
+    /* background-image: linear-gradient(to right top, #172a3e, #342740, #4a2232, #51261d, #45330b); */
+}
+
+
+.notediv {
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 5px;
+  /* width: 75%; */
+  margin: auto;
+}
+
+.noteindiv {
+  width: fit-content;
+  margin-left: 10px !important;
+  background:transparent ;
+  box-shadow: 0px 0px 1px 1px #ffffff !important;
+  /* margin-top: 2rem !important; */
+
+  /* justify-content: space-around !important; */
+}
+
+.notediv button{
+    background: transparent !important;
+}
+.forminput input{
+    background: transparent;
+    color: black;
+}
+.forminput textarea{
+    background: transparent;
+    color: black;
+}
+
+.fa-trash-alt {
+  font-size: 2rem;
+  /* position: relative; */
+  bottom: 0px !important;
+  color: #000000;
+  
+}
+
+.fa-edit {
+    font-size: 2rem;
+    /* position: relative; */
+    bottom: 0px !important;
+    color: #000000;
+  
+}
+.note1, .h3title{
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.note1{
+    color: #000000;
+}
+.h3title{
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+.notehadding{
+    font-size: 4rem;
+    font-family: "Rock Salt", cursive;
+    color: #000000;
+    padding: 2rem;
+}
+.para{
+  color: white;
+}
+
+.noteset{
+    /* box-shadow: 0px 0px 5px 2px #4834d4; */
+    width: 92%;
+    margin: auto;
+
+}
+.btn_group{
+    display: flex;
+    margin: auto ;
+    /* justify-content: space-evenly !important; */
+}
+.addbtn{
+    background: transparent;
+    margin: auto;
+}
+.addbtn:hover{
+  color: white !important;
+}
+
+.updatebtn, .seldel{
+    background: transparent;
+    margin: auto;
+}
+
+.seldel:hover{
+color: #000;
+}
+
+.updatebtn:hover{
+color: white !important;
+}
+
+.check{
+  border: 2px solid red;
+}
+
+.checkbox{
+  position: relative;
+  display: block;
+  
+}
